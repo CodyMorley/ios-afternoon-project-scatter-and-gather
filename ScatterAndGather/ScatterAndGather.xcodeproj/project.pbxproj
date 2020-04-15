@@ -12,6 +12,7 @@
 		5E995C552447AD23002BDA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E995C532447AD23002BDA95 /* Main.storyboard */; };
 		5E995C572447AD2A002BDA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E995C562447AD2A002BDA95 /* Assets.xcassets */; };
 		5E995C5A2447AD2A002BDA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E995C582447AD2A002BDA95 /* LaunchScreen.storyboard */; };
+		5E995C692447AF6A002BDA95 /* ScatterGatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E995C682447AF6A002BDA95 /* ScatterGatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5E995C562447AD2A002BDA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E995C592447AD2A002BDA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E995C5B2447AD2A002BDA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E995C682447AF6A002BDA95 /* ScatterGatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterGatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,71 @@
 		5E995C4C2447AD23002BDA95 /* ScatterAndGather */ = {
 			isa = PBXGroup;
 			children = (
-				5E995C4D2447AD23002BDA95 /* AppDelegate.swift */,
-				5E995C4F2447AD23002BDA95 /* SceneDelegate.swift */,
-				5E995C532447AD23002BDA95 /* Main.storyboard */,
-				5E995C562447AD2A002BDA95 /* Assets.xcassets */,
-				5E995C582447AD2A002BDA95 /* LaunchScreen.storyboard */,
-				5E995C5B2447AD2A002BDA95 /* Info.plist */,
+				5E995C672447AF21002BDA95 /* Model */,
+				5E995C662447AF14002BDA95 /* Model Controllers */,
+				5E995C642447AEFA002BDA95 /* Views */,
+				5E995C652447AF02002BDA95 /* View Controllers */,
+				5E995C612447AEA3002BDA95 /* App Delegates Group */,
+				5E995C622447AEE1002BDA95 /* Resources */,
 			);
 			path = ScatterAndGather;
+			sourceTree = "<group>";
+		};
+		5E995C612447AEA3002BDA95 /* App Delegates Group */ = {
+			isa = PBXGroup;
+			children = (
+				5E995C4D2447AD23002BDA95 /* AppDelegate.swift */,
+				5E995C4F2447AD23002BDA95 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates Group";
+			sourceTree = "<group>";
+		};
+		5E995C622447AEE1002BDA95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E995C5B2447AD2A002BDA95 /* Info.plist */,
+				5E995C562447AD2A002BDA95 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E995C632447AEF0002BDA95 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5E995C532447AD23002BDA95 /* Main.storyboard */,
+				5E995C582447AD2A002BDA95 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5E995C642447AEFA002BDA95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E995C632447AEF0002BDA95 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E995C652447AF02002BDA95 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E995C682447AF6A002BDA95 /* ScatterGatherViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5E995C662447AF14002BDA95 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		5E995C672447AF21002BDA95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E995C692447AF6A002BDA95 /* ScatterGatherViewController.swift in Sources */,
 				5E995C4E2447AD23002BDA95 /* AppDelegate.swift in Sources */,
 				5E995C502447AD23002BDA95 /* SceneDelegate.swift in Sources */,
 			);

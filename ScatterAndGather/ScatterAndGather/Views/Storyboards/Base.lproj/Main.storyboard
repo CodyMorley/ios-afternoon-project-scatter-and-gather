@@ -7,17 +7,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Scatter Gather View Controller-->
         <scene sceneID="9Ii-7p-Bdl">
             <objects>
-                <viewController id="h2T-Xc-KLa" sceneMemberID="viewController">
+                <viewController id="h2T-Xc-KLa" customClass="ScatterGatherViewController" customModule="ScatterAndGather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qgx-pK-hG5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="5Vj-Nu-oYg"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fbw-ax-uKt"/>
+                    <navigationItem key="navigationItem" id="fbw-ax-uKt">
+                        <barButtonItem key="rightBarButtonItem" title="Toggle" id="MX7-L7-HKX">
+                            <connections>
+                                <action selector="toggleButtonPressed:" destination="h2T-Xc-KLa" id="rF1-tj-r0e"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1yB-Xu-nK4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
