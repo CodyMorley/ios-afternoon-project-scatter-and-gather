@@ -14,7 +14,64 @@
                     <view key="view" contentMode="scaleToFill" id="Qgx-pK-hG5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="KO6-E7-KcX">
+                                <rect key="frame" x="24" y="120" width="366" height="54.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWC-G8-IiG">
+                                        <rect key="frame" x="0.0" y="0.0" width="42.5" height="54.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2v-qX-jRI">
+                                        <rect key="frame" x="64.5" y="0.0" width="43" height="54.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kN1-A9-hKk">
+                                        <rect key="frame" x="129.5" y="0.0" width="42.5" height="54.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MuV-Oy-qCz">
+                                        <rect key="frame" x="194" y="0.0" width="42.5" height="54.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfI-qH-T7s">
+                                        <rect key="frame" x="258.5" y="0.0" width="43" height="54.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsr-bo-EKH">
+                                        <rect key="frame" x="323.5" y="0.0" width="42.5" height="54.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lambda_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="KTc-a6-VSf">
+                                <rect key="frame" x="24" y="264.5" width="366" height="365"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KTc-a6-VSf" secondAttribute="height" multiplier="1:1" constant="1" id="MRE-u1-z6u"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KO6-E7-KcX" firstAttribute="leading" secondItem="5Vj-Nu-oYg" secondAttribute="leading" constant="24" id="JkS-os-DEz"/>
+                            <constraint firstItem="KTc-a6-VSf" firstAttribute="centerX" secondItem="Qgx-pK-hG5" secondAttribute="centerX" id="LwG-fD-JPi"/>
+                            <constraint firstItem="KO6-E7-KcX" firstAttribute="top" secondItem="5Vj-Nu-oYg" secondAttribute="top" constant="32" id="OcA-jJ-vCy"/>
+                            <constraint firstItem="KTc-a6-VSf" firstAttribute="leading" secondItem="Qgx-pK-hG5" secondAttribute="leading" constant="24" id="edC-Xr-9MM"/>
+                            <constraint firstItem="KTc-a6-VSf" firstAttribute="top" secondItem="KO6-E7-KcX" secondAttribute="bottom" constant="90" id="ewZ-J8-awC"/>
+                            <constraint firstItem="5Vj-Nu-oYg" firstAttribute="trailing" secondItem="KO6-E7-KcX" secondAttribute="trailing" constant="24" id="tp6-U0-OAQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5Vj-Nu-oYg"/>
                     </view>
                     <navigationItem key="navigationItem" id="fbw-ax-uKt">
@@ -24,6 +81,15 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="aTextLabel1" destination="w2v-qX-jRI" id="47U-mG-Pyb"/>
+                        <outlet property="aTextLabel2" destination="zsr-bo-EKH" id="PI4-ZX-9h5"/>
+                        <outlet property="bTextLabel" destination="MuV-Oy-qCz" id="ZwJ-k0-aJq"/>
+                        <outlet property="dTextLabel" destination="OfI-qH-T7s" id="yqD-bn-Udd"/>
+                        <outlet property="lTextLabel" destination="gWC-G8-IiG" id="VcU-Cp-PjF"/>
+                        <outlet property="lambdaLogo" destination="KTc-a6-VSf" id="NdU-vJ-SXJ"/>
+                        <outlet property="mTextLabel" destination="kN1-A9-hKk" id="HS7-Lr-UFa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1yB-Xu-nK4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,4 +114,7 @@
             <point key="canvasLocation" x="-173.91304347826087" y="-80.357142857142847"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lambda_logo.png" width="2000" height="558"/>
+    </resources>
 </document>

@@ -13,6 +13,7 @@
 		5E995C572447AD2A002BDA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E995C562447AD2A002BDA95 /* Assets.xcassets */; };
 		5E995C5A2447AD2A002BDA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E995C582447AD2A002BDA95 /* LaunchScreen.storyboard */; };
 		5E995C692447AF6A002BDA95 /* ScatterGatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E995C682447AF6A002BDA95 /* ScatterGatherViewController.swift */; };
+		5E995C6B2447B4A9002BDA95 /* lambda_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E995C6A2447B4A9002BDA95 /* lambda_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5E995C592447AD2A002BDA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E995C5B2447AD2A002BDA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E995C682447AF6A002BDA95 /* ScatterGatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterGatherViewController.swift; sourceTree = "<group>"; };
+		5E995C6A2447B4A9002BDA95 /* lambda_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lambda_logo.png; path = ../../lambda_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				5E995C5B2447AD2A002BDA95 /* Info.plist */,
 				5E995C562447AD2A002BDA95 /* Assets.xcassets */,
+				5E995C6A2447B4A9002BDA95 /* lambda_logo.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				5E995C5A2447AD2A002BDA95 /* LaunchScreen.storyboard in Resources */,
 				5E995C572447AD2A002BDA95 /* Assets.xcassets in Resources */,
 				5E995C552447AD23002BDA95 /* Main.storyboard in Resources */,
+				5E995C6B2447B4A9002BDA95 /* lambda_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

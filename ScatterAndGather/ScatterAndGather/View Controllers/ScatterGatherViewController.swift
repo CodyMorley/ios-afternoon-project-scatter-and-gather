@@ -9,8 +9,20 @@
 import UIKit
 
 class ScatterGatherViewController: UIViewController {
-
+    
+    @IBOutlet weak var lTextLabel: UILabel!
+    @IBOutlet weak var aTextLabel1: UILabel!
+    @IBOutlet weak var mTextLabel: UILabel!
+    @IBOutlet weak var bTextLabel: UILabel!
+    @IBOutlet weak var dTextLabel: UILabel!
+    @IBOutlet weak var aTextLabel2: UILabel!
+    @IBOutlet weak var lambdaLogo: UIImageView!
+    
+    
+    
     var isScattered: Bool = false
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
