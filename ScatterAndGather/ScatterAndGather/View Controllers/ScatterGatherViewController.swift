@@ -9,7 +9,7 @@
 import UIKit
 
 class ScatterGatherViewController: UIViewController {
-    
+    //MARK: - Properties -
     @IBOutlet weak var lTextLabel: UILabel!
     @IBOutlet weak var aTextLabel1: UILabel!
     @IBOutlet weak var mTextLabel: UILabel!
@@ -18,28 +18,40 @@ class ScatterGatherViewController: UIViewController {
     @IBOutlet weak var aTextLabel2: UILabel!
     @IBOutlet weak var lambdaLogo: UIImageView!
     
-    
-    
     var isScattered: Bool = false
     
-    
-    
+    //MARK: - Lifecycles -
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+    //MARK: - Functions -
     @IBAction func toggleButtonPressed(_ sender: Any) {
         self.isScattered = !isScattered
+        
+        switch isScattered {
+        case true:
+            scatter()
+        case false:
+            gather()
+        }
+        
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //MARK: - Animation Methods -
+    ///Below are the animations for the ImageView and the labels.
+    
+    func scatter() {
+        
     }
-    */
-
+    
+    func gather() {
+        self.lTextLabel.transform = .identity
+        self.aTextLabel1.transform = .identity
+        self.mTextLabel.transform = .identity
+        self.bTextLabel.transform = .identity
+        self.dTextLabel.transform = .identity
+        self.aTextLabel2.transform = .identity
+        self.lambdaLogo.transform = .identity
+    }
 }
